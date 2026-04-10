@@ -1,0 +1,16 @@
+.checkout-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.08);
+}
+
+.checkout-container input,
+.checkout-container textarea {
+  border: 1px solid #ddd;
+  padding: 0.7rem;
+  border-radius: 8px;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+.product-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,.12);
+  transition: .3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.price {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-group button {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-group button:first-child {
+  background: #222;
+  color: white;
+}
+
+.btn-group button:last-child {
+  background: #ff9900;
+}
+

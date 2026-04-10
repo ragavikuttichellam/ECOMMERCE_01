@@ -1,0 +1,28 @@
+.orders-page {
+  min-height: 80vh;
+  padding: 40px;
+  background: #f1f3f6;
+}
+
+.orders-page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.orders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.order-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.order-card ul {
+  margin-top: 10px;
+  padding-left: 15px;
+}

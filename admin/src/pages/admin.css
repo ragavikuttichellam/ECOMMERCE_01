@@ -1,0 +1,41 @@
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 15px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+  color: cyan;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #222;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
